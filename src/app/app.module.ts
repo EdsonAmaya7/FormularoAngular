@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { PaginitaComponent } from './paginita/paginita.component';
+
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,8 @@ import { PaginitaComponent } from './paginita/paginita.component';
     PaginitaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
